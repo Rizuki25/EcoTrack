@@ -1,0 +1,12 @@
+path: D:/Kerjaan/EcoTrack/ml/data/processed/garbage-balanced
+train: train/images
+val: valid/images
+test: test/images
+nc: 6
+names:
+- BIODEGRADABLE
+- CARDBOARD
+- GLASS
+- METAL
+- PAPER
+- PLASTIC

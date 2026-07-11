@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset dan model berukuran besar
+GARBAGE CLASSIFICATION/
+ml/data/raw/*
+!ml/data/raw/README.md
+ml/data/processed/*
+!ml/data/processed/README.md
+ml/data/local-test/*
+!ml/data/local-test/README.md
+ml/models/*
+!ml/models/README.md
+ml/runs/
+*.pt
+*.onnx
+*.tflite
+
+# Environment dan secret
+.env
+.env.*
+!.env.example
+
+# Editor dan OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Flutter / frontend build
+mobile/.dart_tool/
+mobile/build/
+admin-dashboard/node_modules/
+admin-dashboard/.next/
